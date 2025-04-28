@@ -1,34 +1,7 @@
-#include <iostream>
-using namespace std;
-
-int a = 1, b = 2, c = 3;
-
-// Prototype cho các hàm
-int add(int a, int b, int c);
-int subtract(int a, int b, int c);
-int multiply(int a, int b, int c);
-
-int main() {
-    cout << "Tong: " << add(a, b, c) << endl;
-    cout << "Hieu: " << subtract(a, b, c) << endl;
-    cout << "Tich: " << multiply(a, b, c) << endl;
-    
-    return 0;
-}
 
 // Hàm cộng
 int add(int a, int b, int c) {
     return a + b + c;
-}
-
-// Hàm trừ
-int subtract(int a, int b, int c) {
-    return a - b - c;
-}
-
-// Hàm nhân
-int multiply(int a, int b, int c) {
-    return a * b * c;
 }
 
 
